@@ -326,7 +326,7 @@ func main() {
 	r.Use(cors.Default())
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Welcome to co2api, Made by Vincent Yang. https://github.com/fxcl/co2api",
+			"message": "Welcome to co2api, Made by fX. https://github.com/fxcl/co2api",
 		})
 	})
 	r.POST("/v1/chat/completions", handler)
