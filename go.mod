@@ -1,4 +1,4 @@
-module github.com/missuo/cohere2openai
+module github.com/fxcl/co2api
 
 go 1.22.2
 

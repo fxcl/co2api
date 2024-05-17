@@ -3,9 +3,9 @@
  * @Date: 2024-04-18 03:50:36
  * @LastEditors: Vincent Yang
  * @LastEditTime: 2024-04-18 03:50:56
- * @FilePath: /cohere2openai/utils.go
- * @Telegram: https://t.me/missuo
- * @GitHub: https://github.com/missuo
+ * @FilePath: /co2api/utils.go
+ * @Telegram: https://t.me/ferretui
+ * @GitHub: https://github.com/fxcl
  *
  * Copyright © 2024 by Vincent, All Rights Reserved.
  */

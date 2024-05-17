@@ -3,9 +3,9 @@
  * @Date: 2024-04-16 22:58:27
  * @LastEditors: Vincent Yang
  * @LastEditTime: 2024-04-19 19:42:31
- * @FilePath: /cohere2openai/types.go
- * @Telegram: https://t.me/missuo
- * @GitHub: https://github.com/missuo
+ * @FilePath: /co2api/types.go
+ * @Telegram: https://t.me/ferretui
+ * @GitHub: https://github.com/fxcl
  *
  * Copyright © 2024 by Vincent, All Rights Reserved.
  */

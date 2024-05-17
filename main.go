@@ -3,9 +3,9 @@
  * @Date: 2024-04-16 22:58:22
  * @LastEditors: Vincent Yang
  * @LastEditTime: 2024-04-20 06:27:48
- * @FilePath: /cohere2openai/main.go
- * @Telegram: https://t.me/missuo
- * @GitHub: https://github.com/missuo
+ * @FilePath: /co2api/main.go
+ * @Telegram: https://t.me/ferretui
+ * @GitHub: https://github.com/fxcl
  *
  * Copyright © 2024 by Vincent, All Rights Reserved.
  */
@@ -319,14 +319,14 @@ func main() {
 		port = "6600"
 	}
 
-	fmt.Println("Running on port " + port + "\nHave fun with Cohere2OpenAI!")
+	fmt.Println("Running on port " + port + "\nHave fun with co2api!")
 
 	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 	r.Use(cors.Default())
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Welcome to Cohere2OpenAI, Made by Vincent Yang. https://github.com/missuo/cohere2openai",
+			"message": "Welcome to co2api, Made by Vincent Yang. https://github.com/fxcl/co2api",
 		})
 	})
 	r.POST("/v1/chat/completions", handler)
